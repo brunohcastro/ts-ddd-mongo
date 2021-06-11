@@ -1,0 +1,1 @@
+export type ApplicationService<P, R> = (payload: P) => Promise<R>;

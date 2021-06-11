@@ -1,0 +1,29 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --files --transpile-only --respawn src/index.ts | pino-pretty -c -l"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/mongodb": "^3.6.17",
+    "@types/node": "^15.12.2",
+    "@types/pino": "^6.3.8",
+    "@types/pino-http": "^5.4.1",
+    "@types/uuid": "^8.3.0",
+    "pino-pretty": "^5.0.2",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "awilix": "^4.3.4",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "mongodb": "^3.6.9",
+    "pino": "^6.11.3",
+    "pino-http": "^5.5.0",
+    "uuid": "^8.3.2"
+  }
+}
